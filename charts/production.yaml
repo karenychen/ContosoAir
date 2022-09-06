@@ -1,0 +1,8 @@
+imageKey:
+    repository: karenchenacr.azurecr.io/demo
+    pullPolicy: IfNotPresent
+    tag: latest
+service:
+    annotations: {}
+    type: LoadBalancer
+    port: "80"
